@@ -1,0 +1,20 @@
+body{
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+.line{
+height: 5px;
+background-color: black;
+width: 300px;
+}
+h1{
+    font-family: fantasy;
+    color:darkblue;
+}
+h2{
+    font-family: cursive;
+    color:darkblue;
+}
+h3{
+    font-family: monospace;
+    font-weight: bold;
+}

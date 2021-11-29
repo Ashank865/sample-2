@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognizer</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="header">Face Recognizer</h1>
+    <div class="line"></div>
+    <br>
+    <h2> This model can identify the following persons</h2>
+    <br>
+    <h3>Ashank Vatsa</h3>
+    <h3>Manju Rai</h3>
+    <h3>Pooja Priti</h3>
+    <br>
+    <button onclick="capture()" class="btn btn-danger">Capture Image</button>
+    <h4>Webcam view-</h4>
+    <div id="Webcam_holder"></div>
+<div id="result"></div>
+<button onclick="identify()" class="btn btn-danger">identify Image</button>
+<center><div class="copyright-footer footer">Developed by HERO</div></center>
+</div>
+</body>
+<script src="main.js"></script>
+</html>
